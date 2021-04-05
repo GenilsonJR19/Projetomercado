@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 333%;
+    background-color: #007b5b;
+    color: #007b5b;
+    padding: center;
+}
+
+.login-right { 
+    background-color: white;
+    box-shadow: 18px 18px 5px #00000036;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 400px;
+    height: 500px;
+}
+
+.login-right h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+.login-right h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin-top: 0px;
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+}
+
+.login-loginInputEmail{
+    display: flex;
+    align-items: center;
+    color: #007b5b;
+    box-shadow: 10px;
+    background-color: #f0f4f7;
+    box-shadow: 5px 3px 5px #00000036;
+    border-radius: 5px;
+    padding: 3px;
+    width: 70%;
+    height: 40px;
+}
+
+.login-loginInputEmail svg {
+    margin-left: 10px;
+    font-size: 25px;
+  
+}
+
+.login-loginInputEmail input {
+    background: transparent;
+    width: 100%;
+    outline-width: 0;
+    color: black;
+    border: none;
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.login-loginInputPassword {
+    display: flex;
+    align-items: center;
+    color: #007b5b;
+    background-color: #f0f4f7;
+    box-shadow: 5px 3px 5px #00000036;
+    border-radius: 3px;
+    padding: 3px;
+    margin: 15px;
+    width: 70%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.login-loginInputPassword svg {
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.login-loginInputPassword input {
+    background: transparent;
+    width: 100%;
+    outline-width: 0;
+    color:  #007b5b;
+    border: none;
+    font-size: 17px;
+    margin-left: 12px;
+    margin-right: 10px;
+}
+
+.w-100 button {
+    background-color: #007b5b;
+    color: white;
+    box-shadow: 5px 3px 5px #00000036;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+    align-self: center;
+    border: none;
+    margin-top: 1rem;
+}
+.w-100 button:hover {
+    background-color: white;
+    color: #007b5b;
+    cursor: pointer;
+}
+
+.recuperacao{
+    color: black;
+    background-color:white;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.cadastrobutton{
+    color: black;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.item-social-media2 {
+    position: relative;
+    left: 0px;
+   }
+   
+   .link-social-media2 {
+    left: -20.5px;
+    position: relative;
+    top: -3.423px;
+   }
+
+.link-social-media2:hover .item-social-media2{
+    background-color: #dd5044;
+    color: #fff;
+    border-color: #fff;
+}
+.list-social-media {
+    display: flex;
+    list-style-type: none;
+
+}
+.item-social-media2 {
+    border: 1px solid #bdc3c7;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #007b5b;
+}
